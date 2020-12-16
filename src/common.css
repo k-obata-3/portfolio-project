@@ -1,0 +1,35 @@
+html {
+
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: #333333;
+    font-family: "Montserrat","游ゴシック",YuGothic,"ヒラギノ角ゴ ProN W3","Hiragino Kaku Gothic ProN","メイリオ",Meiryo,sans-serif;
+}
+
+p {
+    margin-bottom: 0;
+}
+
+.fade-in {
+    transition: 1.5s all cubic-bezier(.39, .575, .565, 1);
+    opacity: 0;
+}
+
+.hidden {
+    opacity: 0;
+}
+
+.logo-color {
+    background-color: #293E97;
+}
+
+/* Mobileサイズ用 */
+@media screen and (max-width:1023px) {
+    /* 画面サイズが1023pxまではここを読み込む */
+}
+
+/* PCサイズ用 */
+@media screen and (min-width:1024px) {
+    /* 画面サイズが1024pxからはここを読み込む */
+}

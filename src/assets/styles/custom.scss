@@ -1,0 +1,8 @@
+@import '../../../node_modules/bootstrap/scss/bootstrap.scss';
+
+@function responsive-fs($size:20){
+    $target-fs: $size;
+    $target-vw: 1920;
+    $vw-ratio: $target-vw / 100;
+    @return $target-fs / $vw-ratio * 2vmin;
+}
